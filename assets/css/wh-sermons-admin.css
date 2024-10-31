@@ -1,0 +1,43 @@
+.wh-sermons-description {
+    padding: 20px 0px 0px 0px;
+}
+
+.wh-offer {
+    float: none;
+    margin-right: 10px;
+}
+
+.wh-offer-image {
+    float: left;
+    margin: 0px 20px 20px 0px;
+}
+
+.wh-offer-image img {
+    border: 1px solid #efefef;
+}
+
+.wh-offer-desc {
+    float: left;
+    max-width: 300px;
+    border: 1px solid #efefef;
+    background-color: #f6f6f6;
+    padding: 20px;
+    margin: 0px 0px 25px 0px;
+}
+
+.wh-offer-desc h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.wh-clear-fix {
+    clear: both;
+}
+
+.wh-offer-desc .dashicons {
+    line-height: 1.4;
+}
+
+img.wh-hidpi {
+    width: 250px;
+}

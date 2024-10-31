@@ -1,0 +1,296 @@
+img.playlist {
+  border-radius: 5px;
+  float: right;
+  margin: 0px 0px 5px 10px;
+}
+
+/** Datatable CSS **/
+table.wh_sermons_library {
+  table-layout: auto;
+}
+
+table.wh_sermons_library tr th,
+table.wh_sermons_library tr td {
+  font-size: 14px;
+  padding: 0px 10px;
+  vertical-align: top;
+}
+
+table.wh_sermons_library ul,
+table.wh_sermons_library ul li {
+  list-style-type: none;
+}
+
+table.wh_sermons_library td.child {
+  background-color: #f7f7f7;
+}
+
+table.wh_sermons_library tr th.title_head {
+  min-width: 200px;
+}
+
+table.wh_sermons_library .actions_head {
+  min-width: 50px;
+}
+
+table.wh_sermons_library td.actions a.wh_sermons_action_link_disabled, 
+table.wh_sermons_library td.actions a.wh_sermons_action_link {
+  padding-right: 7px;
+  text-decoration: none;
+  border-bottom: none;
+  box-shadow: none;
+}
+
+table.wh_sermons_library td.actions a.wh_sermons_action_link_disabled {
+  color: #999999;
+}
+
+table.wh_sermons_library td.actions a.wh_sermons_action_link_disabled:hover {
+  cursor: not-allowed;
+}
+
+.reference {
+  font-size: 0.9em;
+  opacity: 0.65;
+}
+
+.scripture-reference {
+  font-weight: normal;
+  padding-left: 5px;
+}
+
+#wh_sermons_filter input {
+  padding: 8px;
+}
+
+#wh_sermons_filter input::placeholder {
+  color: #CCC;
+}
+
+/**
+ * Customize the paginate buttons 
+ */
+#wh_sermons_paginate a.paginate_button {
+  background:none;
+  background-color: #FFF;
+}
+
+#wh_sermons_paginate a:hover {
+  background: none;
+  color: #555 !important;
+  border: 1px solid #999;
+}
+
+#wh_sermons_paginate a.disabled {
+  border: none;
+}
+
+/**
+ * Media Injection Links
+ */
+ul.media_injection_links {
+  border: none;
+  margin: 30px auto 0px auto;  
+  padding: 0px;
+  float: left;
+}
+
+ul.media_injection_links li {
+  float: left;
+  height: auto;
+  list-style-type: none;
+  padding: 5px 15px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  background-color: #f5f5f5;
+  border: 1px solid #d0d0d0;
+}
+
+ul.media_injection_links li.media-tags {
+  background-color: transparent;
+  border: none;
+  font-style: italic;
+  padding: 0px 15px 0px 3px;
+  margin-bottom: 25px;
+  border-right: 1px solid #d0d0d0;
+}
+
+ul.media_injection_links li.media-tags:last-child {
+  border: none;
+}
+
+#listen-download {
+  vertical-align: middle;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 0px 0px 0px 5px;
+  display: inline-block;
+  letter-spacing: -1px;
+}
+
+#listen-download-instructions {
+  vertical-align: middle;
+  padding: 0px 0px 0px 10px;
+  font-size: 14px;
+  width: 85px;
+  display: inline-block;
+  line-height: 16px;
+  font-style: italic;
+}
+
+#download-notes {
+  vertical-align: middle;
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 0px 0px 0px 5px;
+  display: inline-block;
+  letter-spacing: -1px;
+}
+
+.media-link-icon {
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+/**
+ * White Harvest Sermons Filter
+ */
+
+#wh_sermons_filter {
+  padding-bottom: 15px;
+}
+
+#wh_sermons_filter.dataTables_filter {
+  width: 100%;
+}
+#wh_sermons_filter label input[type="search"] {
+  width: 50%;
+  float: right;
+}
+
+/**
+ * White Harvest Sermons Pagination
+ */
+#wh_sermons_paginate {
+  padding-top: 15px;
+  font-size: 0.9em;
+}
+
+a.paginate_button {
+  line-height: 1em;
+}
+
+/**
+ * White Harvest Sermons Info
+ */
+
+#wh_sermons_info {
+  padding-top: 15px;
+  font-size: 0.9em;
+  opacity: 0.65;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/**
+ * Datatable CSS
+ */
+#wh_sermons tbody tr td {
+  border-top: none;
+}
+
+#wh_sermons.dataTable tbody tr td {
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#wh_sermons_wrapper table.dataTable thead th {
+  border: 1px solid #e0e0e0;
+  border-left: none;
+}
+
+#wh_sermons {
+  border: none;
+  border-left: 1px solid #e0e0e0;
+}
+
+#wh_sermons_wrapper table.dataTable.no-footer {
+  border-bottom: none;
+}
+
+/** Latest Sermon Widget CSS **/
+.wh_sermons_latest_widget {
+    background: none repeat scroll 0 0 #050505;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+}
+
+.wh_sermons_latest_widget audio {
+    width: 100%;
+}
+
+/* thumbnail image */
+.wh_sermons_latest_widget .thumbnail {
+    border: 2px solid #181818;
+    display: block;
+    float: left;
+    top: 10px;
+    line-height: 0;
+    margin-right: 10px;
+}
+
+.wh_sermons_latest_widget .thumbnail img {
+    width: 56px;
+}
+
+/* sermon details */
+.wh_sermons_latest_widget .details {
+    display: block;
+    line-height: 20px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.wh_sermons_latest_widget .sermon {
+    display: block;
+    font-weight: bold;
+}
+
+.wh_sermons_latest_widget .teacher {
+    font-weight: normal;
+}
+
+/* description box */
+.wh_sermons_latest_widget .meta {
+    background: none repeat scroll 0 0 #EFEFF0;
+    color: #060606;
+    display: block;
+    padding: 10px 10px 10px;
+    margin: 10px -10px -10px;
+}
+
+.wh_sermons_latest_widget .meta .download-link {
+    text-align: right;
+    display: block;
+}
+
+.wh_sermons_latest_widget .meta a{
+    text-decoration: none;
+}
+
+/* to remove the margin for audio embed */
+.wh_sermons_latest_widget .mejs-container {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+  #wh_sermons_filter {
+    margin-bottom: 20px;
+  }
+}
